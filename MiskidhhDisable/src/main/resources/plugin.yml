@@ -1,0 +1,14 @@
+name: MiskidhhDisable
+version: 1.0.0
+main: net.miskidhh.disable.DisablePlugin
+api-version: '1.21'
+description: Необратимое отключение аккаунтов для MiskidhhWorld
+commands:
+  disableaccount:
+    description: Необратимо отключить аккаунт игрока
+    usage: /disableaccount <ник> <причина>
+    permission: miskidhh.disable.use
+permissions:
+  miskidhh.disable.use:
+    description: Право отключать аккаунты (даже у OP по умолчанию выключено)
+    default: false
